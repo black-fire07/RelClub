@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.button{
+  margin: 13px 20px !important;
+}
+
+.background_video{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.minting{
+  color: white;
+  max-width: 700px;
+  z-index: 1;
+  background-color: rgba(255,255,255,0.7);
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.minting button{
+  margin: 10px 70px;
+  margin-bottom: 30px;
+}
+
+img{
+  padding: 10px;
+}
+
+.input{
+  margin: auto 70px!important;
+}
+
+h2{
+  margin: 30px;
+  color: black;
+}
+
+.outer{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 440px) {
+  .input{
+    margin: auto 20px!important;
+  } 
+}
