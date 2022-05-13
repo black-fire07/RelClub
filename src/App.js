@@ -167,7 +167,7 @@ function App() {
               marginBottom: "20px",
             }}
           >
-            {supply}/{totalSupply} Available
+            {supply}/{totalSupply} Minted
           </p>
           <TextField
             className="input"
